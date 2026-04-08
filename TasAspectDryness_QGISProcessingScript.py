@@ -83,6 +83,6 @@ class TasDryAspectCalc(QgsProcessingAlgorithm):
     #Required bs
     def name(self): return 'tas_dry_aspect_calc'
     def displayName(self): return 'Tas Dry Aspect Calc'
-    def group(self): return 'NB Custom Scripts'
-    def groupId(self): return 'nbcustomscripts'
+    def group(self): return 'Custom Scripts'
+    def groupId(self): return 'customscripts'
     def createInstance(self): return TasDryAspectCalc()
